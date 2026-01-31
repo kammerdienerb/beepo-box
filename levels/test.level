@@ -1,0 +1,335 @@
+dims	13	19
+texture	0	./assets/Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Down-Sheet.png
+texture	1	./assets/Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Side-Sheet.png
+texture	2	./assets/Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Up-Sheet.png
+texture	3	./assets/Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Down-Sheet.png
+texture	4	./assets/Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Side-Sheet.png
+texture	5	./assets/Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Up-Sheet.png
+texture	6	./assets/Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Down-Sheet.png
+texture	7	./assets/Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Side-Sheet.png
+texture	8	./assets/Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Up-Sheet.png
+texture	9	./assets/Entities/Characters/Body_A/Animations/Collect_Base/Collect_Down-Sheet.png
+texture	10	./assets/Entities/Characters/Body_A/Animations/Collect_Base/Collect_Side-Sheet.png
+texture	11	./assets/Entities/Characters/Body_A/Animations/Collect_Base/Collect_Up-Sheet.png
+texture	12	./assets/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Down-Sheet.png
+texture	13	./assets/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Side-Sheet.png
+texture	14	./assets/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Up-Sheet.png
+texture	15	./assets/Entities/Characters/Body_A/Animations/Death_Base/Death_Down-Sheet.png
+texture	16	./assets/Entities/Characters/Body_A/Animations/Death_Base/Death_Side-Sheet.png
+texture	17	./assets/Entities/Characters/Body_A/Animations/Death_Base/Death_Up-Sheet.png
+texture	18	./assets/Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Down-Sheet.png
+texture	19	./assets/Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Side-Sheet.png
+texture	20	./assets/Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Up-Sheet.png
+texture	21	./assets/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Down-Sheet.png
+texture	22	./assets/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Side-Sheet.png
+texture	23	./assets/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Up-Sheet.png
+texture	24	./assets/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Down-Sheet.png
+texture	25	./assets/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Side-Sheet.png
+texture	26	./assets/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Up-Sheet.png
+texture	27	./assets/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Down-Sheet.png
+texture	28	./assets/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Side-Sheet.png
+texture	29	./assets/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Top-Sheet.png
+texture	30	./assets/Entities/Characters/Body_A/Animations/Run_Base/Run_Down-Sheet.png
+texture	31	./assets/Entities/Characters/Body_A/Animations/Run_Base/Run_Side-Sheet.png
+texture	32	./assets/Entities/Characters/Body_A/Animations/Run_Base/Run_Up-Sheet.png
+texture	33	./assets/Entities/Characters/Body_A/Animations/Slice_Base/Slice_Down-Sheet.png
+texture	34	./assets/Entities/Characters/Body_A/Animations/Slice_Base/Slice_Side-Sheet.png
+texture	35	./assets/Entities/Characters/Body_A/Animations/Slice_Base/Slice_Up-Sheet.png
+texture	36	./assets/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Down-Sheet.png
+texture	37	./assets/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side-Sheet.png
+texture	38	./assets/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Up-Sheet.png
+texture	39	./assets/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Down-Sheet.png
+texture	40	./assets/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Side-Sheet.png
+texture	41	./assets/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Up-Sheet.png
+texture	42	./assets/Entities/Mobs/Orc Crew/Orc - Rogue/Death/Death-Sheet.png
+texture	43	./assets/Entities/Mobs/Orc Crew/Orc - Rogue/Idle/Idle-Sheet.png
+texture	44	./assets/Entities/Mobs/Orc Crew/Orc - Rogue/Run/Run-Sheet.png
+texture	45	./assets/Entities/Mobs/Orc Crew/Orc - Shaman/Death/Death-Sheet.png
+texture	46	./assets/Entities/Mobs/Orc Crew/Orc - Shaman/Idle/Idle-Sheet.png
+texture	47	./assets/Entities/Mobs/Orc Crew/Orc - Shaman/Run/Run-Sheet.png
+texture	48	./assets/Entities/Mobs/Orc Crew/Orc - Warrior/Death/Death-Sheet.png
+texture	49	./assets/Entities/Mobs/Orc Crew/Orc - Warrior/Idle/Idle-Sheet.png
+texture	50	./assets/Entities/Mobs/Orc Crew/Orc - Warrior/Run/Run-Sheet.png
+texture	51	./assets/Entities/Mobs/Orc Crew/Orc/Death/Death-Sheet.png
+texture	52	./assets/Entities/Mobs/Orc Crew/Orc/Idle/Idle-Sheet.png
+texture	53	./assets/Entities/Mobs/Orc Crew/Orc/Run/Run-Sheet.png
+texture	54	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Base/Death/Death-Sheet.png
+texture	55	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Base/Idle/Idle-Sheet.png
+texture	56	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Base/Run/Run-Sheet.png
+texture	57	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Mage/Death/Death-Sheet.png
+texture	58	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Mage/Idle/Idle-Sheet.png
+texture	59	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Mage/Run/Run-Sheet.png
+texture	60	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Death/Death-Sheet.png
+texture	61	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Idle/Idle-Sheet.png
+texture	62	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Run/Run-Sheet.png
+texture	63	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Death/Death-Sheet.png
+texture	64	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Idle/Idle-Sheet.png
+texture	65	./assets/Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Run/Run-Sheet.png
+texture	66	./assets/Entities/Npc's/Knight/Death/Death-Sheet.png
+texture	67	./assets/Entities/Npc's/Knight/Idle/Idle-Sheet.png
+texture	68	./assets/Entities/Npc's/Knight/Run/Run-Sheet.png
+texture	69	./assets/Entities/Npc's/Rogue/Death/Death-Sheet.png
+texture	70	./assets/Entities/Npc's/Rogue/Idle/Idle-Sheet.png
+texture	71	./assets/Entities/Npc's/Rogue/Run/Run-Sheet.png
+texture	72	./assets/Entities/Npc's/Wizzard/Death/Death-Sheet.png
+texture	73	./assets/Entities/Npc's/Wizzard/Idle/Idle-Sheet.png
+texture	74	./assets/Entities/Npc's/Wizzard/Run/Run-Sheet.png
+texture	75	./assets/Environment/Props/Animated/Pan_01-Sheet.png
+texture	76	./assets/Environment/Props/Animated/Pan_02-Sheet.png
+texture	77	./assets/Environment/Props/Animated/Pan_03-Sheet.png
+texture	78	./assets/Environment/Props/Animated/Pan_04-Sheet.png
+texture	79	./assets/Environment/Props/Animated/Pan_05-Sheet.png
+texture	80	./assets/Environment/Props/Static/Dungeon_Props.png
+texture	81	./assets/Environment/Props/Static/Esoteric.png
+texture	82	./assets/Environment/Props/Static/Farm.png
+texture	83	./assets/Environment/Props/Static/Furniture.png
+texture	84	./assets/Environment/Props/Static/Meat.png
+texture	85	./assets/Environment/Props/Static/Pan.png
+texture	86	./assets/Environment/Props/Static/Resources.png
+texture	87	./assets/Environment/Props/Static/Rocks.png
+texture	88	./assets/Environment/Props/Static/Shadows.png
+texture	89	./assets/Environment/Props/Static/Tools.png
+texture	90	./assets/Environment/Props/Static/Trees/Model_01/Size_02.png
+texture	91	./assets/Environment/Props/Static/Trees/Model_01/Size_03.png
+texture	92	./assets/Environment/Props/Static/Trees/Model_01/Size_04.png
+texture	93	./assets/Environment/Props/Static/Trees/Model_01/Size_05.png
+texture	94	./assets/Environment/Props/Static/Trees/Model_02/Size_02.png
+texture	95	./assets/Environment/Props/Static/Trees/Model_02/Size_03.png
+texture	96	./assets/Environment/Props/Static/Trees/Model_02/Size_04.png
+texture	97	./assets/Environment/Props/Static/Trees/Model_02/Size_05.png
+texture	98	./assets/Environment/Props/Static/Trees/Model_03/Size_02.png
+texture	99	./assets/Environment/Props/Static/Trees/Model_03/Size_03-export.png
+texture	100	./assets/Environment/Props/Static/Trees/Model_03/Size_03.png
+texture	101	./assets/Environment/Props/Static/Trees/Model_03/Size_04-export-export.png
+texture	102	./assets/Environment/Props/Static/Trees/Model_03/Size_04-export.png
+texture	103	./assets/Environment/Props/Static/Trees/Model_03/Size_04.png
+texture	104	./assets/Environment/Props/Static/Trees/Model_03/Size_05.png
+texture	105	./assets/Environment/Props/Static/Vegetation.png
+texture	106	./assets/Environment/Structures/Buildings/Floors.png
+texture	107	./assets/Environment/Structures/Buildings/Props.png
+texture	108	./assets/Environment/Structures/Buildings/Roofs.png
+texture	109	./assets/Environment/Structures/Buildings/Shadows.png
+texture	110	./assets/Environment/Structures/Buildings/Walls.png
+texture	111	./assets/Environment/Structures/Stations/Alchemy/Alchemy_Table_01-Sheet.png
+texture	112	./assets/Environment/Structures/Stations/Alchemy/Alchemy_Table_02-Sheet.png
+texture	113	./assets/Environment/Structures/Stations/Alchemy/Alchemy_Table_03-Sheet.png
+texture	114	./assets/Environment/Structures/Stations/Anvil/Anvil.png
+texture	115	./assets/Environment/Structures/Stations/Anvil/Anvil_01-Sheet.png
+texture	116	./assets/Environment/Structures/Stations/Anvil/Anvil_02-Sheet.png
+texture	117	./assets/Environment/Structures/Stations/Anvil/Anvil_03-Sheet.png
+texture	118	./assets/Environment/Structures/Stations/Bonfire/Bonfire.png
+texture	119	./assets/Environment/Structures/Stations/Bonfire/Bonfire_01-Sheet.png
+texture	120	./assets/Environment/Structures/Stations/Bonfire/Bonfire_02-Sheet.png
+texture	121	./assets/Environment/Structures/Stations/Bonfire/Bonfire_03-Sheet.png
+texture	122	./assets/Environment/Structures/Stations/Bonfire/Bonfire_04-Sheet.png
+texture	123	./assets/Environment/Structures/Stations/Bonfire/Bonfire_05-Sheet.png
+texture	124	./assets/Environment/Structures/Stations/Bonfire/Bonfire_06-Sheet.png
+texture	125	./assets/Environment/Structures/Stations/Bonfire/Bonfire_07-Sheet.png
+texture	126	./assets/Environment/Structures/Stations/Bonfire/Bonfire_08-Sheet.png
+texture	127	./assets/Environment/Structures/Stations/Bonfire/Bonfire_09-Sheet.png
+texture	128	./assets/Environment/Structures/Stations/Bonfire/Bonfire_10-Sheet.png
+texture	129	./assets/Environment/Structures/Stations/Bonfire/Fire_01-Sheet.png
+texture	130	./assets/Environment/Structures/Stations/Bonfire/Fire_02-Sheet.png
+texture	131	./assets/Environment/Structures/Stations/Bonfire/Smoke-Sheet.png
+texture	132	./assets/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_01-Sheet.png
+texture	133	./assets/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_02.png
+texture	134	./assets/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_03.png
+texture	135	./assets/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_04.png
+texture	136	./assets/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_01.png
+texture	137	./assets/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_02.png
+texture	138	./assets/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_03-Sheet.png
+texture	139	./assets/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_04-Sheet.png
+texture	140	./assets/Environment/Structures/Stations/Cooking Station/Cooking Station.png
+texture	141	./assets/Environment/Structures/Stations/Cooking Station/Estructure.png
+texture	142	./assets/Environment/Structures/Stations/Cooking Station/Grill/Grill_01-Sheet.png
+texture	143	./assets/Environment/Structures/Stations/Cooking Station/Grill/Grill_02-Sheet.png
+texture	144	./assets/Environment/Structures/Stations/Cooking Station/Grill/Grill_03-Sheet.png
+texture	145	./assets/Environment/Structures/Stations/Cooking Station/Grill/Grill_04-Sheet.png
+texture	146	./assets/Environment/Structures/Stations/Furnace/Bricks_01-Sheet.png
+texture	147	./assets/Environment/Structures/Stations/Furnace/Bricks_02-Sheet.png
+texture	148	./assets/Environment/Structures/Stations/Furnace/Bricks_03-Sheet.png
+texture	149	./assets/Environment/Structures/Stations/Furnace/Furnace.png
+texture	150	./assets/Environment/Structures/Stations/Furnace/Iron_01-Sheet.png
+texture	151	./assets/Environment/Structures/Stations/Furnace/Iron_02-Sheet.png
+texture	152	./assets/Environment/Structures/Stations/Furnace/Iron_03-Sheet.png
+texture	153	./assets/Environment/Structures/Stations/Furnace/Stone_01-Sheet.png
+texture	154	./assets/Environment/Structures/Stations/Furnace/Stone_02-Sheet.png
+texture	155	./assets/Environment/Structures/Stations/Furnace/Stone_03-Sheet.png
+texture	156	./assets/Environment/Structures/Stations/Sawmill/Base.png
+texture	157	./assets/Environment/Structures/Stations/Sawmill/Level_1.png
+texture	158	./assets/Environment/Structures/Stations/Sawmill/Level_2-Sheet.png
+texture	159	./assets/Environment/Structures/Stations/Sawmill/Level_3-Sheet.png
+texture	160	./assets/Environment/Structures/Stations/Workbench/Workbench.png
+texture	161	./assets/Environment/Tilesets/Dungeon_Tiles.png
+texture	162	./assets/Environment/Tilesets/Floors_Tiles.png
+texture	163	./assets/Environment/Tilesets/Wall_Tiles.png
+texture	164	./assets/Environment/Tilesets/Wall_Variations.png
+texture	165	./assets/Environment/Tilesets/Water_tiles.png
+texture	166	./assets/RunninBloods/16x16_RPG_Items.png
+texture	167	./assets/RunninBloods/16x16_RPG_Items_background.png
+texture	168	./assets/RunninBloods/Final_Tileset.png
+texture	169	./assets/RunninBloods/Full Spritesheet.png
+texture	170	./assets/Weapons/Bone/Bone.png
+texture	171	./assets/Weapons/Hands/Hands.png
+texture	172	./assets/Weapons/Wood/Wood.png
+layer	0
+tile	0	0	168	6	8	
+tile	0	1	168	6	8	
+tile	0	2	168	6	8	
+tile	0	3	168	6	8	
+tile	0	4	168	6	8	
+tile	0	5	168	6	8	
+tile	0	6	168	6	8	
+tile	0	7	168	6	8	
+tile	0	8	168	6	8	
+tile	0	9	168	6	8	
+tile	0	10	168	6	8	
+tile	0	11	168	6	8	
+tile	0	12	168	6	8	
+tile	0	13	168	6	8	
+tile	1	0	168	6	8	
+tile	1	1	168	6	8	
+tile	1	2	168	6	8	
+tile	1	3	168	6	8	
+tile	1	4	168	6	8	
+tile	1	5	168	6	8	
+tile	1	6	168	6	8	
+tile	1	7	168	6	8	
+tile	1	8	168	6	8	
+tile	1	9	168	6	8	
+tile	1	10	168	6	8	
+tile	1	11	168	6	8	
+tile	1	12	168	6	8	
+tile	1	13	168	6	8	
+tile	2	0	168	6	8	
+tile	2	1	168	6	8	
+tile	2	2	168	6	8	
+tile	2	3	168	6	8	
+tile	2	4	168	6	8	
+tile	2	5	168	6	8	
+tile	2	6	168	6	8	
+tile	2	7	168	6	8	
+tile	2	8	168	6	8	
+tile	2	9	168	6	8	
+tile	2	10	168	6	8	
+tile	2	11	168	6	8	
+tile	2	12	168	6	8	
+tile	2	13	168	6	8	
+tile	3	0	168	6	8	
+tile	3	1	168	6	8	
+tile	3	2	168	6	8	
+tile	3	3	168	6	8	
+tile	3	4	168	6	8	
+tile	3	5	168	6	8	
+tile	3	6	168	6	8	
+tile	3	7	168	6	8	
+tile	3	8	168	6	8	
+tile	3	9	168	6	8	
+tile	3	10	168	6	8	
+tile	3	11	168	6	8	
+tile	3	12	168	6	8	
+tile	3	13	168	6	8	
+tile	4	0	168	6	8	
+tile	4	1	168	6	8	
+tile	4	2	168	6	8	
+tile	4	3	168	6	8	
+tile	4	4	168	6	8	
+tile	4	5	168	6	8	
+tile	4	6	168	6	8	
+tile	4	7	168	6	8	
+tile	4	8	168	6	8	
+tile	4	9	168	6	8	
+tile	4	10	168	6	8	
+tile	4	11	168	6	8	
+tile	4	12	168	6	8	
+tile	4	13	168	6	8	
+tile	5	0	168	6	8	
+tile	5	1	168	6	8	
+tile	5	2	168	6	8	
+tile	5	3	168	6	8	
+tile	5	4	168	6	8	
+tile	5	5	168	6	8	
+tile	5	6	168	6	8	
+tile	5	7	168	6	8	
+tile	5	8	168	6	8	
+tile	5	9	168	6	8	
+tile	5	10	168	6	8	
+tile	5	11	168	6	8	
+tile	5	12	168	6	8	
+tile	5	13	168	6	8	
+tile	6	0	168	6	8	
+tile	6	1	168	6	8	
+tile	6	2	168	6	8	
+tile	6	3	168	6	8	
+tile	6	4	168	6	8	
+tile	6	5	168	6	8	
+tile	6	6	168	6	8	
+tile	6	7	168	6	8	
+tile	6	8	168	6	8	
+tile	6	9	168	6	8	
+tile	6	10	168	6	8	
+tile	6	11	168	6	8	
+tile	6	12	168	6	8	
+tile	6	13	168	6	8	
+tile	7	0	168	6	8	
+tile	7	1	168	6	8	
+tile	7	2	168	6	8	
+tile	7	3	168	6	8	
+tile	7	4	168	6	8	
+tile	7	5	168	6	8	
+tile	7	6	168	6	8	
+tile	7	7	168	6	8	
+tile	7	8	168	6	8	
+tile	7	9	168	6	8	
+tile	7	10	168	6	8	
+tile	7	11	168	6	8	
+tile	7	12	168	6	8	
+tile	7	13	168	6	8	
+tile	8	0	168	6	8	
+tile	8	1	168	6	8	
+tile	8	2	168	6	8	
+tile	8	3	168	6	8	
+tile	8	4	168	6	8	
+tile	8	5	168	6	8	
+tile	8	6	168	6	8	
+tile	8	7	168	6	8	
+tile	8	8	168	6	8	
+tile	8	9	168	6	8	
+tile	8	10	168	6	8	
+tile	8	11	168	6	8	
+tile	8	12	168	6	8	
+tile	8	13	168	6	8	
+layer	1
+tile	1	11	168	16	5	
+tile	1	12	168	16	5	
+tile	1	13	168	16	5	
+tile	2	11	168	16	5	
+tile	2	12	168	16	5	
+tile	2	13	168	16	5	
+tile	3	11	168	16	5	
+tile	3	12	168	16	5	
+tile	3	13	168	16	5	
+tile	4	11	168	16	5	
+tile	4	12	168	16	5	
+tile	4	13	168	16	5	
+tile	5	11	168	16	5	
+tile	5	12	168	16	5	
+tile	5	13	168	16	5	
+tile	6	11	168	16	5	
+tile	6	12	168	16	5	
+tile	6	13	168	16	5	
+layer	2
+tile	1	9	168	22	6	
+tile	2	9	168	22	6	
+tile	3	3	168	7	24	
+tile	3	4	168	8	24	
+tile	3	9	168	22	6	
+tile	4	9	168	22	6	
+tile	5	9	168	22	6	
+tile	6	9	168	22	6	
+tile	7	11	168	0	31	
+layer	3
+tile	2	3	168	7	23	
+tile	2	4	168	8	23	
+tile	6	8	168	6	8	
+tile	12	18	168	6	8	
