@@ -214,39 +214,43 @@ void Editor::frame_gui_tile_editor() {
                 ImGui::TableSetColumnIndex(0);
                 ImGui::Text("Select layer:");
                 ImGui::TableSetColumnIndex(1);
-                if (ImGui::RadioButton("Ground", this->active_layer == Level::LAYER_GROUND))         { this->active_layer = Level::LAYER_GROUND;        }
+                if (ImGui::RadioButton("Ground 1", this->active_layer == Level::LAYER_GROUND1)) { this->active_layer = Level::LAYER_GROUND1; }
                 ImGui::TableSetColumnIndex(2);
-                if (ImGui::RadioButton("Cover 1", this->active_layer == Level::LAYER_GROUND_COVER1)) { this->active_layer = Level::LAYER_GROUND_COVER1; }
+                if (ImGui::RadioButton("Ground 2", this->active_layer == Level::LAYER_GROUND2)) { this->active_layer = Level::LAYER_GROUND2; }
                 ImGui::TableSetColumnIndex(3);
-                if (ImGui::RadioButton("Cover 2", this->active_layer == Level::LAYER_GROUND_COVER2)) { this->active_layer = Level::LAYER_GROUND_COVER2; }
+                if (ImGui::RadioButton("Ground 3", this->active_layer == Level::LAYER_GROUND3)) { this->active_layer = Level::LAYER_GROUND3; }
                 ImGui::TableSetColumnIndex(4);
-                if (ImGui::RadioButton("Cover 3", this->active_layer == Level::LAYER_GROUND_COVER3)) { this->active_layer = Level::LAYER_GROUND_COVER3; }
+                if (ImGui::RadioButton("Solid 1", this->active_layer == Level::LAYER_SOLID1))   { this->active_layer = Level::LAYER_SOLID1;  }
                 ImGui::TableSetColumnIndex(5);
-                if (ImGui::RadioButton("Solid", this->active_layer == Level::LAYER_SOLID))           { this->active_layer = Level::LAYER_SOLID;         }
+                if (ImGui::RadioButton("Solid 2", this->active_layer == Level::LAYER_SOLID2))   { this->active_layer = Level::LAYER_SOLID2;  }
                 ImGui::TableSetColumnIndex(6);
-                if (ImGui::RadioButton("Top 1", this->active_layer == Level::LAYER_TOP1))            { this->active_layer = Level::LAYER_TOP1;          }
+                if (ImGui::RadioButton("Solid 3", this->active_layer == Level::LAYER_SOLID3))   { this->active_layer = Level::LAYER_SOLID3;  }
                 ImGui::TableSetColumnIndex(7);
-                if (ImGui::RadioButton("Top 2", this->active_layer == Level::LAYER_TOP2))            { this->active_layer = Level::LAYER_TOP2;          }
+                if (ImGui::RadioButton("Top 1", this->active_layer == Level::LAYER_TOP1))       { this->active_layer = Level::LAYER_TOP1;    }
                 ImGui::TableSetColumnIndex(8);
-                if (ImGui::RadioButton("Top 3", this->active_layer == Level::LAYER_TOP3))            { this->active_layer = Level::LAYER_TOP3;          }
+                if (ImGui::RadioButton("Top 2", this->active_layer == Level::LAYER_TOP2))       { this->active_layer = Level::LAYER_TOP2;    }
+                ImGui::TableSetColumnIndex(9);
+                if (ImGui::RadioButton("Top 3", this->active_layer == Level::LAYER_TOP3))       { this->active_layer = Level::LAYER_TOP3;    }
                 ImGui::TableNextRow();
                 ImGui::TableSetColumnIndex(0);
                 ImGui::Text("Hide:");
                 ImGui::TableSetColumnIndex(1);
-                ImGui::Checkbox("##ground-hide", &this->hide_layer[Level::LAYER_GROUND]);
+                ImGui::Checkbox("##ground1-hide", &this->hide_layer[Level::LAYER_GROUND1]);
                 ImGui::TableSetColumnIndex(2);
-                ImGui::Checkbox("##ground-cover1-hide", &this->hide_layer[Level::LAYER_GROUND_COVER1]);
+                ImGui::Checkbox("##ground2-hide", &this->hide_layer[Level::LAYER_GROUND2]);
                 ImGui::TableSetColumnIndex(3);
-                ImGui::Checkbox("##ground-cover2-hide", &this->hide_layer[Level::LAYER_GROUND_COVER2]);
+                ImGui::Checkbox("##ground3-hide", &this->hide_layer[Level::LAYER_GROUND3]);
                 ImGui::TableSetColumnIndex(4);
-                ImGui::Checkbox("##ground-cover3-hide", &this->hide_layer[Level::LAYER_GROUND_COVER3]);
+                ImGui::Checkbox("##solid1-hide", &this->hide_layer[Level::LAYER_SOLID1]);
                 ImGui::TableSetColumnIndex(5);
-                ImGui::Checkbox("##solid-hide", &this->hide_layer[Level::LAYER_SOLID]);
+                ImGui::Checkbox("##solid2-hide", &this->hide_layer[Level::LAYER_SOLID2]);
                 ImGui::TableSetColumnIndex(6);
-                ImGui::Checkbox("##top1-hide", &this->hide_layer[Level::LAYER_TOP1]);
+                ImGui::Checkbox("##solid3-hide", &this->hide_layer[Level::LAYER_SOLID3]);
                 ImGui::TableSetColumnIndex(7);
-                ImGui::Checkbox("##top2-hide", &this->hide_layer[Level::LAYER_TOP2]);
+                ImGui::Checkbox("##top1-hide", &this->hide_layer[Level::LAYER_TOP1]);
                 ImGui::TableSetColumnIndex(8);
+                ImGui::Checkbox("##top2-hide", &this->hide_layer[Level::LAYER_TOP2]);
+                ImGui::TableSetColumnIndex(9);
                 ImGui::Checkbox("##top3-hide", &this->hide_layer[Level::LAYER_TOP3]);
 
                 ImGui::EndTable();
@@ -445,28 +449,33 @@ void Editor::render() {
         SDL_RenderFillRect(renderer, &bg_rect);
     }
 
-    if (!this->hide_layer[Level::LAYER_GROUND]) {
-        this->level.render_layer(Level::LAYER_GROUND,
+    if (!this->hide_layer[Level::LAYER_GROUND1]) {
+        this->level.render_layer(Level::LAYER_GROUND1,
                                  this->view_x_off, this->view_y_off,
                                  this->level_zoom);
     }
-    if (!this->hide_layer[Level::LAYER_GROUND_COVER1]) {
-        this->level.render_layer(Level::LAYER_GROUND_COVER1,
+    if (!this->hide_layer[Level::LAYER_GROUND2]) {
+        this->level.render_layer(Level::LAYER_GROUND2,
                                  this->view_x_off, this->view_y_off,
                                  this->level_zoom);
     }
-    if (!this->hide_layer[Level::LAYER_GROUND_COVER2]) {
-        this->level.render_layer(Level::LAYER_GROUND_COVER2,
+    if (!this->hide_layer[Level::LAYER_GROUND3]) {
+        this->level.render_layer(Level::LAYER_GROUND3,
                                  this->view_x_off, this->view_y_off,
                                  this->level_zoom);
     }
-    if (!this->hide_layer[Level::LAYER_GROUND_COVER3]) {
-        this->level.render_layer(Level::LAYER_GROUND_COVER3,
+    if (!this->hide_layer[Level::LAYER_SOLID1]) {
+        this->level.render_layer(Level::LAYER_SOLID1,
                                  this->view_x_off, this->view_y_off,
                                  this->level_zoom);
     }
-    if (!this->hide_layer[Level::LAYER_SOLID]) {
-        this->level.render_layer(Level::LAYER_SOLID,
+    if (!this->hide_layer[Level::LAYER_SOLID2]) {
+        this->level.render_layer(Level::LAYER_SOLID2,
+                                 this->view_x_off, this->view_y_off,
+                                 this->level_zoom);
+    }
+    if (!this->hide_layer[Level::LAYER_SOLID3]) {
+        this->level.render_layer(Level::LAYER_SOLID3,
                                  this->view_x_off, this->view_y_off,
                                  this->level_zoom);
     }

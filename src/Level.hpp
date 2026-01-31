@@ -13,11 +13,12 @@ struct Tile_Data {
 
 struct Level {
     enum {
-        LAYER_GROUND = 0,
-        LAYER_GROUND_COVER1,
-        LAYER_GROUND_COVER2,
-        LAYER_GROUND_COVER3,
-        LAYER_SOLID,
+        LAYER_GROUND1 = 0,
+        LAYER_GROUND2,
+        LAYER_GROUND3,
+        LAYER_SOLID1,
+        LAYER_SOLID2,
+        LAYER_SOLID3,
         LAYER_TOP1,
         LAYER_TOP2,
         LAYER_TOP3,
