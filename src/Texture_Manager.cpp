@@ -40,8 +40,6 @@ void Texture_Manager::add_texture(const std::string &name, SDL_Texture *texture)
     }
 
     this->textures[name] = texture;
-
-    printf("loaded texture %s\n", name.c_str());
 }
 
 SDL_Texture *Texture_Manager::get_texture(std::string name) {

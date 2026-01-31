@@ -12,11 +12,11 @@ Level::Level() {
     this->reset();
 }
 
-void Level::set_tile(Level::Layer layer, int row, int col, const Tile_Data &data) {
+void Level::set_tile(int layer, int row, int col, const Tile_Data &data) {
 
     if (data.texture != nullptr) {
-        int cur_rows = this->layers[(int)Layer::GROUND].size();
-        int cur_cols = this->layers[(int)Layer::GROUND][0].size();
+        int cur_rows = this->layers[LAYER_GROUND].size();
+        int cur_cols = this->layers[LAYER_GROUND][0].size();
 
         if (row < 0) {
             for (int rows_to_prepend = -row; rows_to_prepend > 0; rows_to_prepend -= 1) {
@@ -64,7 +64,7 @@ void Level::set_tile(Level::Layer layer, int row, int col, const Tile_Data &data
     this->dirty = true;
 }
 
-void Level::render_layer(Level::Layer layer, int view_x_off, int view_y_off, float zoom) {
+void Level::render_layer(int layer, int view_x_off, int view_y_off, float zoom) {
     if (this->dirty) {
         for (int l = 0; l < LAYER_COUNT; l += 1) {
             if (this->textures[l] != nullptr) {
@@ -112,8 +112,8 @@ void Level::render_layer(Level::Layer layer, int view_x_off, int view_y_off, flo
     SDL_RenderTexture(renderer, this->textures[(int)layer], NULL, &dst);
 }
 
-int Level::get_height() { return this->layers[(int)Layer::GROUND].size();    }
-int Level::get_width()  { return this->layers[(int)Layer::GROUND][0].size(); }
+int Level::get_height() { return this->layers[LAYER_GROUND].size();    }
+int Level::get_width()  { return this->layers[LAYER_GROUND][0].size(); }
 
 void Level::reset() {
     for (int l = 0; l < LAYER_COUNT; l += 1) {
@@ -181,7 +181,7 @@ void Level::load(std::string path) {
     std::string                cmd;
     std::map<int, std::string> texture_id_to_name;
     std::string                texture_name;
-    int                        cur_layer = (int)Layer::GROUND;
+    int                        cur_layer = LAYER_GROUND;
 
     auto next_token = [&]() -> std::stringstream {
         std::getline(line_ss, tok, '\t');

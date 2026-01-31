@@ -24,7 +24,7 @@ struct Editor {
     bool                     hide_layer[Level::LAYER_COUNT] = {};
     bool                     show_grid                      = true;
     bool                     show_empty                     = true;
-    Level::Layer             active_layer                   = Level::Layer::GROUND;
+    int                      active_layer                   = Level::LAYER_GROUND;
     Tile_Data                active_tile                    = {};
     std::string              cur_tileset                    = "";
     bool                     window_hovered                 = false;
@@ -35,6 +35,11 @@ struct Editor {
     int                      bulk_w                         = 0;
 
     void frame();
+    void frame_gui_menu_bar();
+    void frame_gui_level_chooser_modal();
+    void frame_gui_level_save_modal();
+    void frame_gui_tile_editor();
+    void handle_inputs();
     void render();
 
     void increase_level_zoom();
