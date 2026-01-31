@@ -54,11 +54,11 @@ void Level::set_tile(int layer, int row, int col, const Tile_Data &data) {
     }
 
     if (row >= 0
-    &&  row < (int)this->layers[(int)layer].size()
+    &&  row < (int)this->layers[layer].size()
     &&  col >= 0
-    &&  col < (int)this->layers[(int)layer].size()) {
+    &&  col < (int)this->layers[layer][0].size()) {
 
-        this->layers[(int)layer][row][col] = data;
+        this->layers[layer][row][col] = data;
     }
 
     this->dirty = true;
